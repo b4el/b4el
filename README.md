@@ -17,7 +17,6 @@
 - 🎓 Estudando desenvolvimento de software, do front-end ao back-end
 - 📚 No momento, mergulhando em **C++**: orientação a objetos, STL, CMake e testes
 - 🎮 Gosto de aprender criando jogos e pequenos projetos
-- 📺 Às vezes faço live programando ou jogando na [Twitch](https://www.twitch.tv/rd_b4el)
 
 ### 🛠️ Tecnologias
 
