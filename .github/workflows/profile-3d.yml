@@ -1,4 +1,3 @@
-# Gera o grafico 3D de contribuicoes (pasta profile-3d-contrib) uma vez por dia.
 name: Grafico 3D de contribuicoes
 
 on:
@@ -8,6 +7,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: perfil-imagens
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -25,5 +28,6 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A profile-3d-contrib
-          git commit -m "Atualiza grafico 3D" || echo "Nada mudou"
+          git commit -m "Atualiza grafico 3D" || { echo "Nada mudou"; exit 0; }
+          git pull --rebase origin HEAD
           git push
