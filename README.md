@@ -27,6 +27,7 @@ construindo:
   - Wanted Eggs: app da comunidade gamer para descobrir e votar em segredos dos jogos
 estudando:
   - C++ (orientação a objetos, STL, CMake e testes)
+  - Computação gráfica (ray tracing e Three.js)
   - Segurança no backend (Postgres com RLS)
 gosto_de:
   - 🎮 Jogos (de easter eggs a builds de Call of Duty)
@@ -52,6 +53,7 @@ frase: "Sempre em busca de novos desafios."
   <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
@@ -79,6 +81,20 @@ frase: "Sempre em busca de novos desafios."
 ## 🚀 Projetos em destaque
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>✨ Ray Tracer em C++</h3>
+      <a href="https://b4el.github.io/ray-tracer/"><img src="https://raw.githubusercontent.com/b4el/ray-tracer/main/docs/capa.png" alt="Imagem gerada pelo ray tracer" width="100%" /></a>
+      <p>Renderizador 3D <b>feito do zero</b>, sem bibliotecas gráficas: reflexos, vidro e sombras suaves calculados raio por raio. Usa <b>várias threads</b> e uma <b>BVH</b> para acelerar, tem testes automatizados e um <b>tutorial em 6 etapas</b> para quem está começando. Uma página interativa em <b>Three.js</b> compara o resultado com a renderização em tempo real.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" />
+      </p>
+      <p>👉 <a href="https://github.com/b4el/ray-tracer">ver repositório</a> · 🔍 <a href="https://b4el.github.io/ray-tracer/">comparação interativa</a> · 🎓 <a href="https://github.com/b4el/ray-tracer/tree/main/tutorial">tutorial</a></p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🥚 Wanted Eggs</h3>
