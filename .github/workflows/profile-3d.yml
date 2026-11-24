@@ -1,0 +1,29 @@
+# Gera o grafico 3D de contribuicoes (pasta profile-3d-contrib) uma vez por dia.
+name: Grafico 3D de contribuicoes
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # todo dia de madrugada
+  workflow_dispatch:       # permite rodar na mao pela aba Actions
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Salvar imagens
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A profile-3d-contrib
+          git commit -m "Atualiza grafico 3D" || echo "Nada mudou"
+          git push
