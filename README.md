@@ -28,6 +28,7 @@ construindo:
 estudando:
   - C++ (orientação a objetos, STL, CMake e testes)
   - Computação gráfica (ray tracing e Three.js)
+  - Lua embutido em C++ (scripting de cenas)
   - Segurança no backend (Postgres com RLS)
 gosto_de:
   - 🎮 Jogos (de easter eggs a builds de Call of Duty)
@@ -43,6 +44,7 @@ frase: "Sempre em busca de novos desafios."
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/SQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
@@ -85,9 +87,10 @@ frase: "Sempre em busca de novos desafios."
     <td colspan="2" valign="top">
       <h3>✨ Ray Tracer em C++</h3>
       <a href="https://b4el.github.io/ray-tracer/"><img src="https://raw.githubusercontent.com/b4el/ray-tracer/main/docs/capa.png" alt="Imagem gerada pelo ray tracer" width="100%" /></a>
-      <p>Renderizador 3D <b>feito do zero</b>, sem bibliotecas gráficas: reflexos, vidro e sombras suaves calculados raio por raio. Usa <b>várias threads</b> e uma <b>BVH</b> para acelerar, tem testes automatizados e um <b>tutorial em 6 etapas</b> para quem está começando. Uma página interativa em <b>Three.js</b> compara o resultado com a renderização em tempo real.</p>
+      <p>Renderizador 3D <b>feito do zero</b>, sem bibliotecas gráficas: reflexos, vidro e sombras suaves calculados raio por raio. Usa <b>várias threads</b> e uma <b>BVH</b> para acelerar, tem testes automatizados e um <b>tutorial em 6 etapas</b> para quem está começando. As cenas podem ser escritas como <b>scripts Lua</b> (com sandbox), e uma página interativa em <b>Three.js</b> compara o resultado com a renderização em tempo real.</p>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+        <img src="https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white" />
         <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" />
         <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" />
         <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white" />
